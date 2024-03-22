@@ -1,0 +1,71 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    position: relative; /* Ensure body has relative positioning */
+  }
+  
+  .center-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    margin-right: 20px; /* Adjust the margin as needed */
+    max-width: calc(50% - 20px); /* Adjust to leave space for margin */
+    max-height: 100%;
+  }
+.navbar h1
+{
+    font-family: Alkatra;
+    text-align: left;
+    font-size: 30px;
+}
+header
+{
+    background-color: #67C6E3;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.navbar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    max-width: 1000px;
+}
+.navbar ul
+{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    font-weight: 500;
+    color: #DFF5FF;
+}
+
+.navbar ul li a:hover
+{
+    font-size: 20px;
+}
+.navbar ul li:hover
+{
+    background-color: #008DDA;
+}
+
+.GOAL
+{
+    margin-top: 100px;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    justify-content: space-between;
+}
+.vision
+{
+    font-family: Libre+Baskerville;
+    font-size: 20px;
+}
