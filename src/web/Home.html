@@ -13,6 +13,7 @@
 	<style>
 		body {
 			font-family: Arial, Helvetica, sans-serif;
+			background-color: #F2F1EB;
 			margin: 0;
 			padding: 0;
 		}
@@ -51,7 +52,27 @@
 		.tab button.active {
 			background-color: #ccc;
 		}
+
+		#tab1 #text1{
+			font-size: 40px;
+			margin-left: 100px;
+		}
+
+		#tab1 #text2{
+			font-size: 18px;
+			margin-left: 100px;
+		}	
 		
+		.image1 {
+			width: 500px;
+			height: 400px;
+			position: fixed;
+			bottom: 0;
+			right: 0;
+			margin-right: 150px;
+			margin-bottom: 150px;
+			overflow: hidden;
+		}
 	</style>
 
 <body>
@@ -72,8 +93,16 @@
 	  </div>
 	  
 	  <div id="tab1" class="tabcontent" style="display:block;">
-		<h3>Home Content</h3>
-		<!-- <p>Welcome to our home page.</p> -->
+		<br><br><br><br>
+		<br><br><br><br>
+		<p id="text1"><b>"UNLOCK YOUR CHILD'S <br> FULL POTENTIAL WITH OUR <br>
+			   ENGAGING AND PERSONALIZED <br> EARLY CHILDHOOD TUTORING."</b>
+		<p id="text2">Our experienced tutors create a fun and supportive learning environment that nurtures <br>
+					  growth and development.
+					  <a href="#">Learn more.</a>		
+					</p></p>
+		
+			<img src="img/slider1.jpg" alt="Image 1" class="image1">
 	  </div>
 	  
 	  <div id="tab2" class="tabcontent">
