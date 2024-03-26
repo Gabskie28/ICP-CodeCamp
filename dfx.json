@@ -1,7 +1,7 @@
 {
     "canisters": {
         "lil_learners": {
-            "frontend": {
+            "frontend": {   
                 "entrypoint": "src/index.html"
             },
             "source": ["src"],
